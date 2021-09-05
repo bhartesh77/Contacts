@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    padding: 0;
+}
+
+.li-tag{
+    display: flex;
+}
+li{
+    color: white;
+    padding: 0px;
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    width: 30vw;
+    height: 3vh;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    border-bottom: 5px grey solid;
+}
+
+#name {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+#phone {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 13vw;
+    height: 3vw;
+    padding-left: 10px;
+    max-width: 13vw;
+    border-bottom: 2px grey solid;
+    font-size: 17px;
+    background-color: black;
+}
+
+button{
+    width: 4vw;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    background-color: grey;
+    padding: 0px;
+}
+
+#delete-icon{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+input:hover, input:focus {
+    outline: none;
+}
